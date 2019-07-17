@@ -6,7 +6,8 @@
             "date": "July 27, 2019",
             "time": "14:00-16:00",
             "location": "Online, AltSpace",
-            "signuplink": "https://www.eventbrite.co.uk/e/glasgow-arvr-tickets-64315225571"
+            "url": "https://www.eventbrite.co.uk/e/glasgow-arvr-tickets-64315225571",
+            "imageUrl": "img/glasgowarvr.png"
         }
 
     ]

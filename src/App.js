@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import { HomePage } from './Components/HomePage';
+import { Navigation } from './Components/Navigation';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <Navigation />
     </div>
   );
 }
