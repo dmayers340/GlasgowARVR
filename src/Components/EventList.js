@@ -4,7 +4,7 @@ import { events } from '../config/eventlist.json';
 
 export const EventList = () => {
     return (
-        <>
+        <div className = "card-row">
             { events.map(event => {
                 return(
                     <Card style={{ width: '18rem' }}>
@@ -15,11 +15,11 @@ export const EventList = () => {
                             <Card.Text>{event.date}</Card.Text>
                             <Card.Text>{event.time}</Card.Text>
                             <Card.Text>{event.location}</Card.Text>
-                            <a href = {event.url}>Sign up on Eventbrite!</a>
+                            { event.url ? <a href = {event.url}>Sign up on Eventbrite!</a> : ""}
                         </Card.Body>
                     </Card>
                 )
             })}
-        </>
+        </div>
     )
 }

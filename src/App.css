@@ -36,3 +36,10 @@
   height:100vh;
   width:100vw;
 }
+
+.card-row{
+  margin:10px;
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+}
