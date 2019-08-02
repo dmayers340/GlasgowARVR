@@ -4,7 +4,7 @@ import { events, pastevents } from '../config/eventlist.json';
 
 export const EventList = () => {
     return (
-        <>
+        <div className = 'page-container'>
             <h2>Upcoming Events</h2>
                 <div className = "card-row">
                     { events.map(event => {
@@ -41,6 +41,6 @@ export const EventList = () => {
                     )
                 })}
             </div>
-        </>
+        </div>
     )
 }

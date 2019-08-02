@@ -57,3 +57,19 @@
   width:600px;
   border-style: solid;
 }
+
+.codeofconduct {
+  text-align: left;
+}
+
+.page-container{
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 20px;
+}
+
+.right-side {
+  position: absolute;
+  right: 0;
+  padding-right:20px;
+}

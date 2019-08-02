@@ -1,28 +1,44 @@
 import React from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-import { NavLink  } from 'react-router-dom';
-import { Col, Row } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import { events } from '../config/eventlist.json';
+
+const currEvent = events[0];
 
 export const HomePage = () => {
     return (
-        <>
+        <div className = 'page-container'>
             <h1>Glasgow ARVR</h1>
-            <h3> <NavLink  to={'/events'} className="nav-link">Events</NavLink ></h3>
-            <Row>
-                <Col>
-                    <TwitterTimelineEmbed
-                        className="twitter"
-                        sourceType="profile"
-                        screenName="ARVRGlasgow"
-                        options={{height: 600}}
-                    />
-                </Col>
-                <Col sm><img className = 'image-row' alt="Glasgow ARVR Logo" src={process.env.PUBLIC_URL + '/img/glasgowarvr.png'} /></Col>
-            </Row>     
-            <Row>
-                <Col sm><img className = 'image-row' alt="Glasgow ARVR New Logo" src={process.env.PUBLIC_URL + '/img/NewLogo.png'} /></Col>
-                <Col sm><img className = 'image-row' alt="Two people with VR headsets on at the Glasgow ARVR July Meetup Collider " src={process.env.PUBLIC_URL + '/img/ARVRGlasgow_Collider.jpg'} /></Col>
-            </Row>                                     
-        </>
+            <div className = "card-row">
+            <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                        <TwitterTimelineEmbed
+                            className="twitter"
+                            sourceType="profile"
+                            screenName="ARVRGlasgow"
+                            options={{height: 600}}
+                        />
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                        <Card.Img variant="top" src={process.env.PUBLIC_URL + '/img/ARVRGlasgow_Collider.jpg'}/>
+                        <Card.Img src={process.env.PUBLIC_URL + '/img/glasgowarvr.png'} />
+                        <Card.Img variant="bottom" src={process.env.PUBLIC_URL + '/img/NewLogo.png'}/>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                        <Card.Title>{currEvent.eventName}</Card.Title>
+                        <Card.Img src={currEvent.imageUrl} />
+                        <Card.Text>{currEvent.description}</Card.Text>
+                        <Card.Text>{currEvent.date}</Card.Text>
+                        <Card.Text>{currEvent.time}</Card.Text>
+                        <Card.Text>{currEvent.location}</Card.Text>
+                        { currEvent.url ? <a href = {currEvent.url}>Sign up on Eventbrite!</a> : ""}
+                    </Card.Body>
+                </Card>
+            </div>
+        </div>
     )
 }
