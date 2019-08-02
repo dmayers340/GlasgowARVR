@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, ListGroupItem, ListGroup } from 'react-bootstrap';
 import { events, pastevents } from '../config/eventlist.json';
 
 export const EventList = () => {
@@ -13,11 +13,13 @@ export const EventList = () => {
                                 <Card.Body>
                                 <Card.Img variant="top" src={event.imageUrl} />
                                 <Card.Title>{event.eventName}</Card.Title>
-                                    <Card.Text>{event.description}</Card.Text>
-                                    <Card.Text>{event.date}</Card.Text>
-                                    <Card.Text>{event.time}</Card.Text>
-                                    <Card.Text>{event.location}</Card.Text>
+                                <ListGroup className="list-group-flush">
+                                    <ListGroupItem>{event.description}</ListGroupItem>
+                                    <ListGroupItem>{event.date}</ListGroupItem>
+                                    <ListGroupItem>{event.time}</ListGroupItem>
+                                    <ListGroupItem>{event.location}</ListGroupItem>
                                     { event.url ? <a href = {event.url}>Sign up on Eventbrite!</a> : ""}
+                                </ListGroup>
                                 </Card.Body>
                             </Card>
                         )
@@ -29,13 +31,15 @@ export const EventList = () => {
                     return(
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                            <Card.Img variant="top" src={event.imageUrl} />
-                            <Card.Title>{event.eventName}</Card.Title>
-                                <Card.Text>{event.description}</Card.Text>
-                                <Card.Text>{event.date}</Card.Text>
-                                <Card.Text>{event.time}</Card.Text>
-                                <Card.Text>{event.location}</Card.Text>
-                                { event.url ? <a href = {event.url}>Sign up on Eventbrite!</a> : ""}
+                                <Card.Img variant="top" src={event.imageUrl} />
+                                <Card.Title>{event.eventName}</Card.Title>
+                                <ListGroup className="list-group-flush">
+                                    <ListGroupItem>{event.description}</ListGroupItem>
+                                    <ListGroupItem>{event.date}</ListGroupItem>
+                                    <ListGroupItem>{event.time}</ListGroupItem>
+                                    <ListGroupItem>{event.location}</ListGroupItem>
+                                    { event.url ? <a href = {event.url}>Sign up on Eventbrite!</a> : ""}
+                                </ListGroup>
                             </Card.Body>
                         </Card>
                     )
