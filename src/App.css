@@ -64,14 +64,14 @@
 
 .codeofconduct {
   text-align: left;
+  padding: 15px;
 }
 
 .page-container{
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-top: 20px;
+  margin: 20px;
   word-break: break-word;
-  width: 100%;
+  width: 100%w;
+  height:100%;
 }
 
 .right-side {

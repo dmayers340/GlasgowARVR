@@ -14,7 +14,6 @@ export const EventList = () => {
                                     <Card.Body>
                                         <Card.Img variant="top" src={event.imageUrl} />
                                         <Card.Title>{event.eventName}</Card.Title>
-                                        <Card.Text>
                                             <ListGroup className="list-group-flush">
                                                 <ListGroupItem>{event.description}</ListGroupItem>
                                                 <ListGroupItem>{event.date}</ListGroupItem>
@@ -22,7 +21,6 @@ export const EventList = () => {
                                                 <ListGroupItem>{event.location}</ListGroupItem>
                                                 { event.url ? <a href = {event.url}>Sign up on Eventbrite!</a> : ""}
                                             </ListGroup>
-                                        </Card.Text> 
                                     </Card.Body>
                                 </Card>
                             </Col> 
