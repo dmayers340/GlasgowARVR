@@ -9,7 +9,7 @@ export const EventList = () => {
                 <Row>
                     { events.map(event => {
                         return (
-                            <Col>
+                            <Col key={event.eventName}>
                                 <Card style={{ width: '20rem' }}>
                                     <Card.Body>
                                         <Card.Img variant="top" src={event.imageUrl} />
@@ -33,7 +33,7 @@ export const EventList = () => {
             <Row>
                 { pastevents.map(event => {
                     return(
-                        <Col>
+                        <Col key={event.eventName}>
                             <Card style={{ width: '20rem' }}>
                                 <Card.Body>
                                     <Card.Img variant="top" src={event.imageUrl} />

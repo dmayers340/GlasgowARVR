@@ -48,12 +48,15 @@
 }
 .card-row{
   margin:10px;
+  padding:10px;
   display: flex;
-  direction: row;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   word-wrap: break-word;
 }
-
+.card{
+  word-wrap: break-word;
+}
 .twitter{
   width:600px;
   border-style: solid;
@@ -64,10 +67,11 @@
 }
 
 .page-container{
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-top: 20px;
-  word-break: break-all;
+  word-break: break-word;
+  width: 100%;
 }
 
 .right-side {
