@@ -1,21 +1,21 @@
 {
     "events": [
         {
-            "eventName": "August Glasgow ARVR Meet-up",
-            "description": "Join us at JPMorgan for the August meet-up. We will have a workshop using Unity and VRTK to create a VR experience. Feel free to bring laptops and VR headsets.",
-            "date": "August 31, 2019",
-            "time": "14:00-16:00",
-            "location": "45 Waterloo Street Glasgow G2 6HS",
-            "url": "https://www.eventbrite.co.uk/e/glasgow-arvr-tickets-67753868645",
-            "imageUrl": "img/NewLogo.png"
-        },
-        {
             "eventName": "September Glasgow ARVR Meet-up",
             "description": "Join us for our September meet-up. We will have a gudied conversation about Creating Augmented and Virtual Realities. In preperation, it is suggested to read the book Created Augmented and Virtual Realities, however it is not necessary.",
             "date": "September 2019",
             "time": "14:00-16:00",
             "location": "Glasgow",
             "imageUrl": "img/glasgowarvr.png"
+        },
+        {
+            "eventName": "October Glasgow ARVR Meet-up",
+            "description": "Join us for a 'show and tell'. Please bring any projects that you are working on.",
+            "date": "TBD",
+            "time": "TBD",
+            "location": "TBD",
+            "url": "TBD",
+            "imageUrl": "img/NewLogo.png"
         }
     ],
     "pastevents": [
@@ -26,6 +26,15 @@
             "time": "19:00-21:00",
             "location": "Online, AltSpace",
             "url": "https://www.eventbrite.co.uk/e/glasgow-arvr-tickets-64315225571",
+            "imageUrl": "img/NewLogo.png"
+        },
+        {
+            "eventName": "August Glasgow ARVR Meet-up",
+            "description": "Join us at JPMorgan for the August meet-up. We will have a workshop using Unity and VRTK to create a VR experience. Feel free to bring laptops and VR headsets.",
+            "date": "August 31, 2019",
+            "time": "14:00-16:00",
+            "location": "45 Waterloo Street Glasgow G2 6HS",
+            "url": "https://www.eventbrite.co.uk/e/glasgow-arvr-tickets-67753868645",
             "imageUrl": "img/NewLogo.png"
         }
     ]
