@@ -8,7 +8,7 @@
             "location": "Glasgow Science Centre",
             "urlTitle": "More Info Avaliable on the Science Centre Website",
             "url": "https://www.glasgowsciencecentre.org/discover/family-events/curiosity-live",
-            "imageUrl": "img/NewLogo.png"
+            "imageUrl": "img/GlasgowARVRImage.png"
         },
         {
             "eventName": "December Glasgow ARVR Meet-up",
@@ -17,7 +17,7 @@
             "time": "TBD",
             "location": "TBD",
             "urlTitle": "TBD",
-            "imageUrl": "img/glasgowarvr.png"
+            "imageUrl": "img/GlasgowARVRImage.png"
         }
     ],
     "pastevents": [
