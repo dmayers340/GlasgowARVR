@@ -5,6 +5,7 @@ import { events } from '../config/eventlist.json';
 import Knot from './knot';
 
 const currEvent = events[0];
+const urlDescription = currEvent.urlTitle ? currEvent.urlTitle : 'Sign up on Eventbrite!';
 
 export const HomePage = () => {
     return (
@@ -33,7 +34,7 @@ export const HomePage = () => {
                             <ListGroupItem>{currEvent.date}</ListGroupItem>
                             <ListGroupItem>{currEvent.time}</ListGroupItem>
                             <ListGroupItem>{currEvent.location}</ListGroupItem>
-                            { currEvent.url ? <a href = {currEvent.url}>Sign up on Eventbrite!</a> : ""}
+                            { currEvent.url ? (<a href={currEvent.url}>{urlDescription}</a>) : null}
                         </ListGroup>
                         </Card.Body>
                     </Card>

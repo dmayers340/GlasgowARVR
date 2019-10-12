@@ -81,3 +81,71 @@ render(){
   }
 }
 export default Knot;
+
+
+// import React, { useState } from 'react';
+// import * as THREE from 'three';
+
+// export const Knot = () => {
+//   const [isAnimated, setIsAnimated] = useState('true');
+//   let frameId;
+//   const width = window.innerWidth;
+//   const height = window.innerHeight;
+
+//   const scene = new THREE.Scene();
+
+//   const camera = new THREE.PerspectiveCamera( 75, width/height, 0.1, 1000);
+//   camera.position.z = 8;
+
+//   const renderer = new THREE.WebGLRenderer({ antialias: true});
+//   renderer.setClearColor('#ffffff');
+//   renderer.setSize(width, height);
+//   let mount = React.createRef();
+//   document.body.appendChild(renderer.domElement);
+
+// 	const geometry = new THREE.TorusKnotGeometry( 5, 1.5, 50, 8 );
+// 	const material = new THREE.MeshBasicMaterial( { color: 0x008080 } );
+// 	const torusKnot = new THREE.Mesh( geometry, material );
+//   scene.add( torusKnot );  
+  
+//   const start = () => {
+//     if (!frameId) {
+//       frameId = requestAnimationFrame(animate)
+//     }
+//   }
+//   const stop = () => {
+//     cancelAnimationFrame(frameId);
+//   }
+
+//   const animationStatus = () => {
+//     if(isAnimated) {
+//       setIsAnimated(false);
+//       return stop();
+//     } else {
+//       setIsAnimated(true);
+//       return animate();
+//    }
+//   }
+//   const animate = () => {
+//     torusKnot.rotation.x += 0.01
+//     torusKnot.rotation.y += 0.01
+//     renderScene()
+//     frameId = window.requestAnimationFrame(animate)
+//  };
+
+//   const renderScene = () => {
+//     renderer.render(scene, camera)
+//   }
+
+//       const buttonLabel = isAnimated ? 'Stop Animation' : 'Start Animation';
+//   start();
+//     return (
+//       <>
+//         <button onClick = {animationStatus}>{buttonLabel}</button>
+// 			  <div
+// 				  style={{ width: '100%', height: '100%' }}
+//           ref={(mount) => { mount = mount }}
+// 			  />
+//       </>
+//   )
+// }

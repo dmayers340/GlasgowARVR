@@ -1,21 +1,23 @@
 {
     "events": [
         {
-            "eventName": "September Glasgow ARVR Meet-up",
-            "description": "Join us for our September meet-up. We will have a gudied conversation about Creating Augmented and Virtual Realities. In preperation, it is suggested to read the book Created Augmented and Virtual Realities, however it is not necessary.",
-            "date": "September 2019",
-            "time": "14:00-16:00",
-            "location": "Glasgow",
-            "imageUrl": "img/glasgowarvr.png"
+            "eventName": "November Glasgow ARVR Meet-up",
+            "description": "Join us at the Science Centre for Curiosity Live. This will be an opportunity to look at what some of the people in the Glasgow ARVR community are doing, as well as finding more about different projects around Scotland related to Science. Plus, it's a great opportunity to explore the Science Centre! You will  need to pay to get into the Science Centre.",
+            "date": "November 9th",
+            "time": "TBD",
+            "location": "Glasgow Science Centre",
+            "urlTitle": "More Info Avaliable on the Science Centre Website",
+            "url": "https://www.glasgowsciencecentre.org/discover/family-events/curiosity-live",
+            "imageUrl": "img/NewLogo.png"
         },
         {
-            "eventName": "October Glasgow ARVR Meet-up",
-            "description": "Join us for a 'show and tell'. Please bring any projects that you are working on.",
+            "eventName": "December Glasgow ARVR Meet-up",
+            "description": "TBD",
             "date": "TBD",
             "time": "TBD",
             "location": "TBD",
-            "url": "TBD",
-            "imageUrl": "img/NewLogo.png"
+            "urlTitle": "TBD",
+            "imageUrl": "img/glasgowarvr.png"
         }
     ],
     "pastevents": [
@@ -35,7 +37,15 @@
             "time": "14:00-16:00",
             "location": "45 Waterloo Street Glasgow G2 6HS",
             "url": "https://www.eventbrite.co.uk/e/glasgow-arvr-tickets-67753868645",
-            "imageUrl": "img/NewLogo.png"
+            "imageUrl": "img/glasgowarvr.png"
+        },
+        {
+            "eventName": "September Glasgow ARVR Meet-up",
+            "description": "Join us for our September meet-up. We will have a gudied conversation about Creating Augmented and Virtual Realities. In preperation, it is suggested to read the book Created Augmented and Virtual Realities, however it is not necessary.",
+            "date": "September 2019",
+            "time": "14:00-16:00",
+            "location": "Glasgow",
+            "imageUrl": "img/glasgowarvr.png"
         }
     ]
 }
