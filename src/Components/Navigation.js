@@ -12,7 +12,14 @@ export const Navigation = () => {
     return (
         <>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="/"> Glasgow ARVR</Navbar.Brand>
+                <Navbar.Brand href="/"> 
+                    <img
+                        src="/img/GlasgowARVRImage.png"
+                        height="30"
+                        className="d-inline-block align-top"
+                        alt="Glasgow ARVR Logo"
+                    />
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
