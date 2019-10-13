@@ -65,6 +65,8 @@
 .codeofconduct {
   text-align: left;
   padding: 15px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .page-container{
@@ -73,7 +75,10 @@
   width: 100%;
   height:100%;
 }
-
+.image-fit {
+  width: 50vw;
+  outline: 2px solid black;
+}
 .right-side {
   position: absolute;
   right: 0;

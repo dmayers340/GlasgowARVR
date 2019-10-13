@@ -1,10 +1,16 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 
 export const CodeOfConduct = () => {
     return (
         <div className = 'page-container'>
+            <Image
+                className='image-fit'
+                src={process.env.PUBLIC_URL + '/img/GlasgowARVRImage.png'} 
+                alt= 'Glasgow ARVR Logo. Scottish flag in the background, Oculus Rift VR headset with a traffic cone on top of it, and a Hololens with a traffic cone on top of it' 
+            />
+            <h1>Code of Conduct:</h1>
             <div className = 'codeofconduct'>
-                <h1>Code of Conduct:</h1>
                     Glasgow AR/VR is an event intended for education, networking, and community.
                     To ensure it is a welcoming and friendly environment for all, attendees, speakers,
                     organisers, and volunteers at any CodeCraft meetup are required to conform to the
