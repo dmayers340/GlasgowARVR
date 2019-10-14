@@ -12,6 +12,15 @@
         },
         {
             "eventName": "December Glasgow ARVR Meet-up",
+            "description": "Join us in Altspace for the December meet-up. We will be talking about the latest news in AR and VR, what everyone has been working on/playing",
+            "date": "TBD",
+            "time": "TBD",
+            "location": "AltSpace VR",
+            "urlTitle": "TBD",
+            "imageUrl": "img/GlasgowARVRImage.png"
+        },
+        {
+            "eventName": "January Glasgow ARVR Meet-up",
             "description": "TBD",
             "date": "TBD",
             "time": "TBD",

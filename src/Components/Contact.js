@@ -17,27 +17,25 @@ export const Contact = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                <Col>
-                    <Card style={{ width: '20rem' }}>
-                        <Card.Body>
-                        <FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'twitter']} />                            
-                        <Card.Title>Twitter</Card.Title>
-                        <a href="https://twitter.com/ARVRGlasgow">Find Glasgow ARVR on Twitter</a>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card style={{ width: '20rem' }}>
-                        <Card.Body>
-                        <FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'facebook']} />                            
-                        <Card.Title>Facebook</Card.Title>
-                        <a href="https://www.facebook.com/glasgowarvr/">Find Glasgow ARVR on Facebook</a>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                    <Col>
+                        <Card style={{ width: '20rem' }}>
+                            <Card.Body>
+                            <FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'twitter']} />                            
+                            <Card.Title>Twitter</Card.Title>
+                            <a href="https://twitter.com/ARVRGlasgow">Find Glasgow ARVR on Twitter</a>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card style={{ width: '20rem' }}>
+                            <Card.Body>
+                            <FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'facebook']} />                            
+                            <Card.Title>Facebook</Card.Title>
+                            <a href="https://www.facebook.com/glasgowarvr/">Find Glasgow ARVR on Facebook</a>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
-                
-                
             </div>
         </div>
         
