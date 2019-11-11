@@ -1,21 +1,11 @@
 {
     "events": [
         {
-            "eventName": "November Glasgow ARVR Meet-up",
-            "description": "Join us at the Science Centre for Curiosity Live. This will be an opportunity to look at what some of the people in the Glasgow ARVR community are doing, as well as finding more about different projects around Scotland related to Science. Plus, it's a great opportunity to explore the Science Centre! You will  need to pay to get into the Science Centre.",
-            "date": "November 9th",
-            "time": "TBD",
-            "location": "Glasgow Science Centre",
-            "urlTitle": "More Info Avaliable on the Science Centre Website",
-            "url": "https://www.glasgowsciencecentre.org/discover/family-events/curiosity-live",
-            "imageUrl": "img/GlasgowARVRImage.png"
-        },
-        {
             "eventName": "December Glasgow ARVR Meet-up",
-            "description": "Join us in Altspace for the December meet-up. We will be talking about the latest news in AR and VR, what everyone has been working on/playing",
-            "date": "TBD",
-            "time": "TBD",
-            "location": "AltSpace VR",
+            "description": "Join us for the December meet-up. We will be talking about how to get started in creating AR and VR experiences",
+            "date": "11-12-2019",
+            "time": "18:00-20:00",
+            "location": "TBD",
             "urlTitle": "TBD",
             "imageUrl": "img/GlasgowARVRImage.png"
         },
@@ -55,6 +45,16 @@
             "time": "14:00-16:00",
             "location": "Glasgow",
             "imageUrl": "img/glasgowarvr.png"
+        },
+                {
+            "eventName": "November Glasgow ARVR Meet-up",
+            "description": "Join us at the Science Centre for Curiosity Live. This will be an opportunity to look at what some of the people in the Glasgow ARVR community are doing, as well as finding more about different projects around Scotland related to Science. Plus, it's a great opportunity to explore the Science Centre! You will  need to pay to get into the Science Centre.",
+            "date": "November 9th",
+            "time": "12:00-16:00",
+            "location": "Glasgow Science Centre",
+            "urlTitle": "More Info Avaliable on the Science Centre Website",
+            "url": "https://www.glasgowsciencecentre.org/discover/family-events/curiosity-live",
+            "imageUrl": "img/GlasgowARVRImage.png"
         }
     ]
 }
