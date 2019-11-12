@@ -2,11 +2,12 @@
     "events": [
         {
             "eventName": "December Glasgow ARVR Meet-up",
-            "description": "Join us for the December meet-up. We will be talking about how to get started in creating AR and VR experiences",
+            "description": "Join us for the December meet-up. Schedule: 18:00-18:30 Networking, 18:30-19:00 Suzanne Lee, talk title to be confirmed. 19:00-19:30 Sarune Savickaite, talk title to be confirmed. 19:30-20:00 Trying XR experiences",
             "date": "December 11, 2019",
             "time": "18:00-20:00",
-            "location": "TBD",
-            "urlTitle": "https://glasgowarvr.eventbrite.co.uk",
+            "location": "Morgan Stanley, 122 Waterloo St, Glasgow G2 7DP",
+            "urlTitle":"Get your tickets on Eventbrite!",
+            "url": "https://glasgowarvr.eventbrite.co.uk",
             "imageUrl": "img/GlasgowARVRImage.png"
         },
         {
