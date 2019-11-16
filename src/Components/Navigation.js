@@ -11,7 +11,7 @@ import { CodeOfConduct } from './CodeOfConduct';
 export const Navigation = () => {
     return (
         <>
-            <Navbar bg="light" expand="lg">
+        <Navbar collapseOnSelect  bg="light" expand="lg">
                 <Navbar.Brand href="/"> 
                     <img
                         src="/img/GlasgowARVRImage.png"

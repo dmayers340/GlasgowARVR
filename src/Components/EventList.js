@@ -1,14 +1,25 @@
 import React from 'react';
 import { Card, Col, ListGroupItem, ListGroup, Row } from 'react-bootstrap';
-import { events, pastevents } from '../config/eventlist.json';
+import { events } from '../config/eventlist.json';
 
 let urlDescription;
 export const EventList = () => {
+    const pastEvents = [];
+    const futureEvents = [];
+    events.map(event => {
+        let eventDate = new Date(event.date);
+        if (eventDate < Date.now()) {
+           pastEvents.push(event); 
+        } else {
+            futureEvents.push(event);
+        }
+    });
+
     return (
         <div className = 'page-container'>
             <h2>Upcoming Events</h2>
                 <Row>
-                    { events.map(event => {
+                    { futureEvents.map(event => {
                         urlDescription = event.urlTitle ? event.urlTitle : 'Sign up on Eventbrite!';
                         return (
                             <Col key={event.eventName}>
@@ -31,7 +42,7 @@ export const EventList = () => {
                 </Row>
             <h2> Past Events </h2>
             <Row>
-                { pastevents.map(event => {
+                { pastEvents.map(event => {
                     urlDescription = event.urlTitle ? event.urlTitle : 'Sign up on Eventbrite!';
                     return(
                         <Col key={event.eventName}>

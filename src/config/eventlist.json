@@ -13,14 +13,12 @@
         {
             "eventName": "January Glasgow ARVR Meet-up",
             "description": "TBD",
-            "date": "TBD",
+            "date": "January 2020",
             "time": "TBD",
             "location": "TBD",
             "urlTitle": "TBD",
             "imageUrl": "img/GlasgowARVRImage.png"
-        }
-    ],
-    "pastevents": [
+        },
         {
             "eventName": "July AltSpace Glasgow ARVR Meet-up",
             "description": "Join us in Altspace for the July meet-up. We will be talking about the latest news in AR and VR, what everyone has been working on/playing, and exploring the AltSpace environment.",
@@ -50,7 +48,7 @@
                 {
             "eventName": "November Glasgow ARVR Meet-up",
             "description": "Join us at the Science Centre for Curiosity Live. This will be an opportunity to look at what some of the people in the Glasgow ARVR community are doing, as well as finding more about different projects around Scotland related to Science. Plus, it's a great opportunity to explore the Science Centre! You will  need to pay to get into the Science Centre.",
-            "date": "November 9th",
+            "date": "November 9, 2019",
             "time": "12:00-16:00",
             "location": "Glasgow Science Centre",
             "urlTitle": "More Info Avaliable on the Science Centre Website",

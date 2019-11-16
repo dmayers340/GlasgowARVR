@@ -13,9 +13,9 @@ export const CodeOfConduct = () => {
             <div className = 'codeofconduct'>
                     Glasgow AR/VR is an event intended for education, networking, and community.
                     To ensure it is a welcoming and friendly environment for all, attendees, speakers,
-                    organisers, and volunteers at any CodeCraft meetup are required to conform to the
+                    organisers, and volunteers at any Glasgow ARVR meetup are required to conform to the
                     following Code of Conduct. Organizers will enforce this code throughout the
-                    meetup and meetup-related social event
+                    meetup and meetup-related social event.
                 
                 <h2>Ground Rules</h2>
                     We want the discussion to be as interesting, useful and productive as possible.
