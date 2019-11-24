@@ -5,7 +5,7 @@ import { EventList } from './EventList';
 import { Contact } from './Contact';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CodeOfConduct } from './CodeOfConduct';
-import DecAR from './DecAR';
+import DecemberAR from './DecemberAR';
 
 export const Navigation = () => {
     
@@ -35,7 +35,7 @@ export const Navigation = () => {
                 </button>               
                 
                 <div className={`${collapseClass}`} id="navbarResponsive">
-                    <ul class="navbar-nav mr-auto">
+                    <ul className="navbar-nav mr-auto">
                         <NavLink onClick={toggleNavbar} to={'/'} className="nav-link"> Home </NavLink >
                         <NavLink onClick={toggleNavbar} to={'/events'} className="nav-link">Events</NavLink >
                         <NavLink onClick={toggleNavbar} to={'/codeofconduct'} className="nav-link">Code of Conduct</NavLink>
@@ -51,7 +51,7 @@ export const Navigation = () => {
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/events' component={EventList} />
                 <Route exact path='/codeofconduct' component={CodeOfConduct} />
-                <Route exact path='/ar' component={DecAR} />
+                <Route exact path='/ar' component={DecemberAR} />
             </Switch>
         </>
     )
