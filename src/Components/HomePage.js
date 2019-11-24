@@ -49,6 +49,16 @@ export const HomePage = () => {
                         />
                     </Card>
                 </Col>
+                <Col>
+                    <Card className="card" style={{ width: '20rem'}}>
+                        <Card.Body>
+                            <Card.Title>Credits for 3D models</Card.Title>
+                            <Card.Text>
+                                3D models from Google Poly. Headset made by the Google Poly team, and the cone was made by Adam Marc Williams. 
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </div>
     )
