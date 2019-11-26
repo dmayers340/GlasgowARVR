@@ -58,6 +58,7 @@ export const HomePage = () => {
                                 <ul>
                                     <li>Headset made by the Google Poly team</li>
                                     <li>Cone made by Adam Marc Williams</li>
+                                    <li>Snowflakes made by Kamylle B. Grenier</li>
                                     <li>Christmas Tree made by Deb Mayers</li>
                                 </ul>
                             </Card.Text>
