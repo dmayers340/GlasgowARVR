@@ -1,7 +1,9 @@
 
 ## Glasgow ARVR
 
-Created by [Deb Mayers](https://debmayers.com)
+Follow us on [Twitter](https://twitter.com/ARVRGlasgow)\  
+Or our [website](https://glasgowarvr.co.uk/)\
+Created by [Deb Mayers](https://debmayers.com)\
 
 ### 3D Model authors credited here:
 
