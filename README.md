@@ -1,7 +1,7 @@
 
 ## Glasgow ARVR
 
-Created by [https://debmayers.com](Deb Mayers)
+Created by [Deb Mayers](https://debmayers.com)
 
 ### 3D Models were either created by Deb Mayers, or from Google Poly, authors credited here:
 
