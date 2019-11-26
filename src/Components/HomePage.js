@@ -52,9 +52,14 @@ export const HomePage = () => {
                 <Col>
                     <Card className="card" style={{ width: '20rem'}}>
                         <Card.Body>
-                            <Card.Title>Credits for 3D models</Card.Title>
+                            <Card.Title>{"Credits for 3D models"}</Card.Title>
                             <Card.Text>
-                                3D models from Google Poly. Headset made by the Google Poly team, and the cone was made by Adam Marc Williams. 
+                            3D models from Google Poly.
+                                <ul>
+                                    <li>Headset made by the Google Poly team</li>
+                                    <li>Cone made by Adam Marc Williams</li>
+                                    <li>Christmas Tree made by Deb Mayers</li>
+                                </ul>
                             </Card.Text>
                         </Card.Body>
                     </Card>

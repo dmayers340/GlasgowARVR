@@ -40,7 +40,7 @@ export const Navigation = () => {
                         <NavLink onClick={toggleNavbar} to={'/events'} className="nav-link">Events</NavLink >
                         <NavLink onClick={toggleNavbar} to={'/codeofconduct'} className="nav-link">Code of Conduct</NavLink>
                         <NavLink onClick={toggleNavbar} to={'/contact'} className="nav-link">Contact</NavLink>
-                        <NavLink onClick={toggleNavbar}  to={'/ar'} className="nav-link">AR</NavLink>
+                        <NavLink onClick={toggleNavbar}  to={'/aframe'} className="nav-link">A-Frame</NavLink>
                         <a className ='right-side' href ="https://twitter.com/ARVRGlasgow"><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'twitter']} /></a>
                     </ul>
                 </div>
@@ -51,7 +51,7 @@ export const Navigation = () => {
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/events' component={EventList} />
                 <Route exact path='/codeofconduct' component={CodeOfConduct} />
-                <Route exact path='/ar' component={DecemberAR} />
+                <Route exact path='/aframe' component={DecemberAR} />
             </Switch>
         </>
     )
