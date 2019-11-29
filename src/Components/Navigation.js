@@ -15,7 +15,7 @@ export const Navigation = () => {
         setIsOpen(!isOpen);
     }
 
-    const collapseClass = isOpen ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const collapseClass = isOpen ? 'collapse navbar-collapse show' : 'collapse navbar-collapse';
     const toggleClass = isOpen ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
  
     return (
