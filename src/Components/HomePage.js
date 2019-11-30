@@ -9,33 +9,33 @@ const urlDescription = currEvent.urlTitle ? currEvent.urlTitle : 'Sign up on Eve
 
 export const HomePage = () => {
     return (
-        <div className = 'page-container'>
+        <div className='page-container'>
             <h1>Glasgow ARVR</h1>
-            <Knot />  
+            <Knot />
             <Row>
                 <Col>
                     <Card className="card" style={{ width: '20rem' }}>
                         <Card.Body>
-                            <Card.Img variant="top" src={process.env.PUBLIC_URL + '/img/ARVRGlasgow_Collider.jpg'}/>
+                            <Card.Img variant="top" src={process.env.PUBLIC_URL + '/img/ARVRGlasgow_Collider.jpg'} />
                             <Card.Img src={process.env.PUBLIC_URL + '/img/IMG-6228.JPG'} />
-                            <Card.Img variant="bottom" src={process.env.PUBLIC_URL + '/img/IMG-6234.JPG'}/>
+                            <Card.Img variant="bottom" src={process.env.PUBLIC_URL + '/img/IMG-6234.JPG'} />
                             <Card.Img src={process.env.PUBLIC_URL + '/img/IMG-6232.JPG'} />
 
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                <Card className="card" style={{ width: '20rem' }}>
-                    <Card.Body>
-                        <Card.Title>{currEvent.eventName}</Card.Title>
-                        <Card.Img src={currEvent.imageUrl} />
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>{currEvent.description}</ListGroupItem>
-                            <ListGroupItem>{currEvent.date}</ListGroupItem>
-                            <ListGroupItem>{currEvent.time}</ListGroupItem>
-                            <ListGroupItem>{currEvent.location}</ListGroupItem>
-                            { currEvent.url ? (<a href={currEvent.url}>{urlDescription}</a>) : null}
-                        </ListGroup>
+                    <Card className="card" style={{ width: '20rem' }}>
+                        <Card.Body>
+                            <Card.Title>{currEvent.eventName}</Card.Title>
+                            <Card.Img src={currEvent.imageUrl} />
+                            <ListGroup className="list-group-flush">
+                                <ListGroupItem>{currEvent.description}</ListGroupItem>
+                                <ListGroupItem>{currEvent.date}</ListGroupItem>
+                                <ListGroupItem>{currEvent.time}</ListGroupItem>
+                                <ListGroupItem>{currEvent.location}</ListGroupItem>
+                                {currEvent.url ? (<a href={currEvent.url}>{urlDescription}</a>) : null}
+                            </ListGroup>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -45,23 +45,20 @@ export const HomePage = () => {
                             className="twitter"
                             sourceType="profile"
                             screenName="ARVRGlasgow"
-                            options={{height: 730}}
+                            options={{ height: 730 }}
                         />
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="card" style={{ width: '20rem'}}>
+                    <Card className="card" style={{ width: '20rem' }}>
                         <Card.Body>
-                            <Card.Title>{"Credits for 3D models"}</Card.Title>
-                            <Card.Text>
-                            3D models from Google Poly.
-                                <ul>
-                                    <li>Headset made by the Google Poly team</li>
-                                    <li>Cone made by Adam Marc Williams</li>
-                                    <li>Snowflakes made by Kamylle B. Grenier</li>
-                                    <li>Christmas Tree made by Deb Mayers</li>
-                                </ul>
-                            </Card.Text>
+                            <Card.Title>Credits for 3D models on the <a href="https://glasgowarvr.co.uk/aframe">A-Frame page</a></Card.Title>
+                            <ListGroup className="list-group-flush">
+                                    <ListGroupItem>Headset made by the <a href="https://poly.google.com/view/bvd33G7Q66m">Google Poly team</a></ListGroupItem>
+                                    <ListGroupItem>Cone made by <a href="https://poly.google.com/view/eFQ60hneKwL">Adam Marc Williams </a></ListGroupItem>
+                                    <ListGroupItem>Snowflakes made by <a href="https://poly.google.com/view/3MxTcGjaCfD">Kamylle B. Grenier</a></ListGroupItem>
+                                    <ListGroupItem>Christmas Tree made by <a href ="https://debmayers.com/">Deb Mayers</a></ListGroupItem>
+                                </ListGroup>
                         </Card.Body>
                     </Card>
                 </Col>
