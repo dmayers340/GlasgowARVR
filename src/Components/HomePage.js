@@ -1,5 +1,4 @@
 import React from 'react';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { Card, Col, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import { events } from '../config/eventlist.json';
 import Knot from './knot';
@@ -13,7 +12,7 @@ export const HomePage = () => {
             <h1>Glasgow ARVR</h1>
             <Knot />
             <Row>
-                <Col>
+                <Col id='main'>
                     <Card className="card" style={{ width: '20rem' }}>
                         <Card.Body>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + '/img/ARVRGlasgow_Collider.jpg'} />
@@ -37,16 +36,6 @@ export const HomePage = () => {
                                 {currEvent.url ? (<a href={currEvent.url}>{urlDescription}</a>) : null}
                             </ListGroup>
                         </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card className="card" style={{ width: '20rem' }}>
-                        <TwitterTimelineEmbed
-                            className="twitter"
-                            sourceType="profile"
-                            screenName="ARVRGlasgow"
-                            options={{ height: 730 }}
-                        />
                     </Card>
                 </Col>
                 <Col>
