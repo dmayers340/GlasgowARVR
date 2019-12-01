@@ -41,7 +41,11 @@ export const Navigation = () => {
                         <NavLink onClick={toggleNavbar} to={'/codeofconduct'} className="nav-link">Code of Conduct</NavLink>
                         <NavLink onClick={toggleNavbar} to={'/contact'} className="nav-link">Contact</NavLink>
                         <NavLink onClick={toggleNavbar}  to={'/aframe'} className="nav-link">A-Frame</NavLink>
-                        <a className ='right-side' href ="https://twitter.com/ARVRGlasgow"><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'twitter']} /></a>
+                    </ul>
+                    <ul className="nav-list">
+                        <li><a className ='right-side' href ="https://twitter.com/ARVRGlasgow"><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'twitter']} /></a></li>
+                        <li><a className ='right-side' href ="http://linkedin.com/company/glasgow-arvr "><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'linkedin']}/></a></li>
+                        <li><a className ='right-side' href ="https://facebook.com/glasgowarvr"><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'facebook']}/></a></li>
                     </ul>
                 </div>
             </nav>        
