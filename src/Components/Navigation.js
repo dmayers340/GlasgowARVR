@@ -5,7 +5,9 @@ import { EventList } from './EventList';
 import { Contact } from './Contact';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CodeOfConduct } from './CodeOfConduct';
-import DecemberAR from './DecemberAR';
+// import DecemberAR from './DecemberAR';
+import FebXR from './WebXR/FebruaryXR';
+
 import {Navbar, Nav} from 'react-bootstrap';
 
 export const Navigation = () => {
@@ -21,7 +23,7 @@ export const Navigation = () => {
  
     return (
         <>
-            <a class="skip-main" href="#main">Skip to main content</a>
+            <a className="skip-main" href="#main">Skip to main content</a>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand href="/" onClick={() => setIsOpen(!isOpen)}>
                     <img
@@ -43,7 +45,7 @@ export const Navigation = () => {
                         <NavLink onClick={toggleNavbar} to={'/contact'} className="nav-link">Contact</NavLink>
                         <NavLink onClick={toggleNavbar}  to={'/aframe'} className="nav-link">A-Frame</NavLink>
                     </Nav>
-                    <ul className="nav-list">
+                    <ul className="nav-list-social">
                         <li><a className ='right-side' href ="https://twitter.com/ARVRGlasgow"><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'twitter']} /></a></li>
                         <li><a className ='right-side' href ="http://linkedin.com/company/glasgow-arvr "><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'linkedin']}/></a></li>
                         <li><a className ='right-side' href ="https://facebook.com/glasgowarvr"><FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'facebook']}/></a></li>
@@ -56,7 +58,7 @@ export const Navigation = () => {
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/events' component={EventList} />
                 <Route exact path='/codeofconduct' component={CodeOfConduct} />
-                <Route exact path='/aframe' component={DecemberAR} />
+                <Route exact path='/aframe' component={FebXR} />
             </Switch>
         </>
     )

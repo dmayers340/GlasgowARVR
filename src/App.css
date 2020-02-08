@@ -122,3 +122,18 @@ a.skip-main:focus, a.skip-main:active {
   font-size:1.2em;
   z-index:999;
 }
+
+.right-side {
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-list-social {
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  align-content: space-between;
+}

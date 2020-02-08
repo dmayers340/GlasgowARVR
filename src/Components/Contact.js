@@ -35,6 +35,15 @@ export const Contact = () => {
                             </Card.Body>
                         </Card>
                     </Col>
+                    <Col>
+                        <Card style={{ width: '20rem' }}>
+                            <Card.Body>
+                            <FontAwesomeIcon pull = "right" size="lg" icon={['fab', 'linkedin']} />                            
+                            <Card.Title>LinkedIn</Card.Title>
+                            <a href="https://www.linkedin.com/company/34604190/admin/">Find Glasgow ARVR on LinkedIn</a>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </div>
         </div>
