@@ -10,7 +10,7 @@ const FebXR = () => {
             <a-entity gltf-model="url(models/Heart.gltf)" scale="0.005 0.005 0.005" position="-1.790 2.448 -2"></a-entity>
 
             
-            <a-sky color="black"></a-sky>
+            <a-sky src="img/sky.jpg"></a-sky>
             <a-sphere src="img/moon.jpg" radius="5" position="0 60 -80"></a-sphere>
             <a-plane src="img/grass.jpg" position="0 0 0" rotation="-90 0 0" scale="10 10 10" width="4" height="4" color="white"></a-plane>
         </a-scene>
