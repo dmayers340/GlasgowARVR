@@ -1,16 +1,6 @@
 {
     "events": [
         {
-            "eventName": "Collab and Create",
-            "description": "Come and join us for Glasgow ARVR's Collab and Create Session! Bring curiosity, ideas, creative skills, development skills, laptops, VR headsets, AR headsets, mobile phones, or other devices. Please be aware that photos may be taken at this event and posted on social media. Let us know if you do not want your photo taken. Tickets are required for this event",
-            "date": "February 26, 2020",
-            "time": "18:00-20:00",
-            "location": "JPMorgan, 45 Waterloo St, Glasgow G2 6HS",
-            "urlTitle":"Get your tickets on Eventbrite!",
-            "url": "https://www.eventbrite.co.uk/e/collab-and-create-glasgow-arvr-tickets-92271224717?aff=ebdssbdestsearch",
-            "imageUrl": "img/LinkedIn-profile.jpg"
-        },
-        {
             "eventName": "AR/VR Showcase",
             "description": "Come and try out different Immersive Experiences built by people in the community!",
             "date": "March 25, 2020",
@@ -46,6 +36,16 @@
             "location": "TBD",
             "urlTitle": "TBD",
             "imageUrl": "img/GlasgowARVRImage.png"
+        },
+        {
+            "eventName": "Collab and Create",
+            "description": "Come and join us for Glasgow ARVR's Collab and Create Session! Bring curiosity, ideas, creative skills, development skills, laptops, VR headsets, AR headsets, mobile phones, or other devices. Please be aware that photos may be taken at this event and posted on social media. Let us know if you do not want your photo taken. Tickets are required for this event",
+            "date": "February 26, 2020",
+            "time": "18:00-20:00",
+            "location": "JPMorgan, 45 Waterloo St, Glasgow G2 6HS",
+            "urlTitle":"Get your tickets on Eventbrite!",
+            "url": "https://www.eventbrite.co.uk/e/collab-and-create-glasgow-arvr-tickets-92271224717?aff=ebdssbdestsearch",
+            "imageUrl": "img/LinkedIn-profile.jpg"
         },
         {
             "eventName": "July AltSpace Glasgow ARVR Meet-up",
